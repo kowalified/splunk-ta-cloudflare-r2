@@ -1,0 +1,25 @@
+# Splunk license - never commit
+*.License
+*.lic
+
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Splunk runtime files (written by running Splunk instance)
+TA-cloudflare-r2/metadata/local.meta
+TA-cloudflare-r2/local/
+
+# Session notes (internal only, not part of the TA)
+new-session-prompt.md
+end-to-end-test-prompt.md
+project-info.md
+research/
